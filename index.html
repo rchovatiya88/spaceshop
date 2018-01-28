@@ -5,8 +5,10 @@
     <title>Artsy Jewels  </title>
     <meta name="description" content="Shop for jewelry in space">
       <script src="https://dist.3d.io/3dio-js/1.x.x/3dio.min.js"></script>
-    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+  
+
   </head>
   
   <body>
@@ -21,42 +23,68 @@
         <a-asset-item id="dawningFont" src="https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2FdawningOfANewDayRegular.typeface.json?1490305922844"></a-asset-item>
         <a-asset-item id="exoFont" src="https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2Fexo2Black.typeface.json?1490305922150"></a-asset-item>
         <a-asset-item id="exoItalicFont" src="https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2Fexo2BlackItalic.typeface.json?1490305922725"></a-asset-item>
+        
+        <!--Model Images -->
+<a-ssets><img id="model1" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F83699_6a779591-0bc5-4982-b0de-8e5e1a3df41e.jpg?1508165929062"></a-ssets>
+<a-ssets><img id="model2" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F2A.jpg?1508165970447"></a-ssets>
+<a-ssets><img id="model3" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F23464_66146_34021_83592_c5d2f2d6-8aec-49bd-8ff4-5210d4601607_large.jpg?1508165970020"></a-ssets>
+<a-ssets><img id="model4" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F34031_large.jpg?1508165971975"></a-ssets>
+<a-ssets><img id="model5" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F66163_34067_83455_fa255494-bef5-4363-85e2-da8b77cae6b1_large.jpg?1508165974282"></a-ssets>
+<a-ssets><img id="model6" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F83596_83650.jpg?1508165990832"></a-ssets>
        
         <!--product images --> 
-    <a-assets> 
-          <img id="product1" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F41WkVGWCWML_1024x1024%402x.jpg?1508165968960">"
+        <a-ssets><img id="buy" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2FCart-Icon-PNG-Graphic-Cave-e1461785088730-300x300.png?1517106441250"></a-ssets>
+        <a-assets><img id="product1" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F41WkVGWCWML_1024x1024%402x.jpg?1508165968960">"</a-assets>
+        <a-assets><img id="product2" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F41hDvOUX71L_1024x1024%402x.jpg?1508165969690">"</a-assets>
+        <a-assets><img id="product3" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F23464.jpg?1508165969795">"</a-assets>
+        <a-assets><img id="product4" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F23466_large.jpg?1508165970042">"</a-assets>
+        <a-assets><img id="product5" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F51fIVe8VHwL_grande.jpg?1508165970142">"</a-assets>
+        <a-assets><img id="product6" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F51kFifrhwyL_1024x1024%402x.jpg?1508165970477">"</a-assets>
+        <a-assets><img id="product7" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F23467.jpg?1508165970518">"</a-assets>
+        <a-assets><img id="product8" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F33865.jpg?1508165970551">"</a-assets>
+        <a-assets><img id="product9" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F33963-L_large.jpg?1508165971037">"</a-assets>
+        <a-assets><img id="product10" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F33969-L.jpg?1508165971155">"</a-assets>
+        <a-assets><img id="product11" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F33949-L.jpg?1508165971198">"</a-assets>
+        <a-assets><img id="product12" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F33942_large.jpg?1508165971798">"</a-assets>
+        <a-assets><img id="product13" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F34067_large.jpg?1508165971919">"</a-assets>
+        <a-assets><img id="product14" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F34145_1024x1024%402x.jpg?1508165972111">"</a-assets>
+        <a-assets><img id="product15" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F34101.jpg?1508165972576">"</a-assets>
+        <a-assets><img id="product16" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F65813.jpg?1508165972971">"</a-assets>
+        <a-assets><img id="product17" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F66146_large.jpg?1508165973396">"</a-assets>
+        <a-assets><img id="product18" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F66114_597d8fe1-a715-4912-b6b6-83bbc841e699_large.jpg?1508165973490">"</a-assets>
+        <a-assets><img id="product19" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F65997-L.jpg?1508165973620">"</a-assets>
+        <a-assets><img id="product20" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F34010_09ccf342-e3ea-415c-ad17-2e3551ef7565.jpg?1508165976413">"</a-assets>
+
 </a-assets>
-<a-assets> 
-          <img id="product2" src="https://cdn.glitch.com/361bd0e7-85d0-4432-9c26-197d679062c6%2F41hDvOUX71L_1024x1024%402x.jpg?1508165969690">"
-</a-assets>
 
+<a-entity position="0 1 -3.5" rotation="10 0 0"> <!-- the main entity u can change the position-->
+<!-- <a-image src="#buy" width="1" height="1" rotation="0 0 0" position="0 -0.5 0"></a-image> -->
 
-</a-assets>
+  
+<!--Right Side -->  
+<!-- <a-image src="#product1" width="2" height="2" rotation="0 0 0" position="0 0 0"></a-image> -->
+<a-image src="#model1" width="2" height="2" rotation="0 0 0" position="2 0 0"></a-image>
+<a-image src="#model2" width="2" height="2" rotation="0 0 0" position="4 0 0"></a-image>
+<a-image src="#model3" width="2" height="2" rotation="0 0 0" position="6 0 0"></a-image>
+  
+ <!--Left Side --> 
+<a-image src="#model4" width="2" height="2" rotation="0 0 0" position="-2 0 0"></a-image>
+<a-image src="#model5" width="2" height="2" rotation="0 0 0" position="-4 0 0"></a-image>
+<a-image src="#model6" width="2" height="2" rotation="0 0 0" position="-6 0 0"></a-image>
+  
+<!-- Sideways-->  
+<a-image src="#product8" width="2" height="2" rotation="0 90 0" position="-7 0 -1"></a-image>
+<a-image src="#product9" width="2" height="2" rotation="0 90 0" position="-7 0 -3"></a-image>
 
-<a-entity position="-3 3 -10" rotation="10 0 0"> <!-- the main entity u can change the position-->
-       
-    	<a-image src="#product1" 
-                 width="4" 
-                 height="4" 
-                 rotation="0 0 0" 
-                 position="0 0 0">
-        </a-image>
-
-        <a-image src="#product2" 
-                 width="4" 
-                 height="4" 
-                 rotation="0 10 0" 
-                 position="-4.5 0 0">
-        </a-image>
         
         <a-entity
-          rotation="0 0 5"
-          position="0 2 0"
+          rotation="0 0 0"
+          position="-4 2 0"
           text-geometry="value: Artsy Jewels; font: #dawningFont; bevelEnabled: true; bevelSize: 0.05; bevelThickness: 0.05; curveSegments: 12; size: 1; height: 0;"
           material="color:lavenderblush; metalness:1; roughness: 0; sphericalEnvMap: #pink;"
         ></a-entity>
         
-      </a-entity>
+  </a-entity>
 
       <a-entity
         geometry="primitive: plane; width: 10000; height: 10000;" rotation="-90 0 0"
@@ -67,11 +95,9 @@
       <a-entity light="color: white; intensity: 0.5" position="-5 5 15"></a-entity>
       <a-entity light="color: white; type: ambient;"></a-entity>
 
-  <a-sky src="#sky" rotation="0 -90 0"></a-sky>
+<!--   <a-sky srcas="#sky" rotation="0 -90 0"></a-sky> -->
     </a-scene>
   </body>
 
 </html>
-
-
 
